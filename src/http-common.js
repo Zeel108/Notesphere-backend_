@@ -2,7 +2,7 @@ import axios from "axios"
 
 export default axios.create({
 
-    baseURL: "https://notesphere-backend-a6ek.onrender.com",
+    baseURL: "http://localhost:9999/api",
     headers: {
         "Content-Type": "application/json"
         
